@@ -75,9 +75,9 @@ entityDef weapon_rocketlauncher
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
 	"inv_name"					"#str_107409"	
 
-	"fireRate"					".8"
-	"reloadRate"				".8"
-	"spread"					"0"
+	"fireRate"					"1.2" //was .8
+	"reloadRate"				"1.2" //was .8
+	"spread"					"7" // was 0
 
 	"ammoRegenStep"				"1"
 	"ammoRegenTime"				"1750"

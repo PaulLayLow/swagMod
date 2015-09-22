@@ -65,7 +65,7 @@ entityDef weapon_shotgun
 
 	"spawnclass"				"idItem"
 	"weaponclass"				"rvWeaponShotgun"
-	"size"					"32 32 32"
+	"size"					"48 48 48"
 	"model_view" 				"weapon_shotgun_view"
 	"model_view_strogg" 			"weapon_shotgun_view_strogg"
   	"model_world"				"weapon_shotgun_world"

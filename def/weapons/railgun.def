@@ -85,7 +85,7 @@ entityDef weapon_railgun
 	"joint_world_flash"			"muzzle_flash"
 
 	"fireRate"				"1.6"
-	"spread"				"0"
+	"spread"				"7"  // was 0
 
 	"inv_weapon"				"weapon_railgun"
 	"inv_start_ammo_railgun"		"10"
