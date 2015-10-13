@@ -106,7 +106,7 @@ entityDef weapon_railgun
 	"gui"					"guis/weapons/railgun.gui"
 	"mtr_icon"				"gfx/guis/hud/icons/gun_railgun"
 	
-	"ammoRegenStep"				"1"
+	"ammoRegenStep"				"1" 
 	"ammoRegenTime"				"2750"
 
 	"muzzle_kick_time"			"0.2"

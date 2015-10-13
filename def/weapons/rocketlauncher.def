@@ -75,17 +75,17 @@ entityDef weapon_rocketlauncher
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
 	"inv_name"					"#str_107409"	
 
-	"fireRate"					"1.2" //was .8
-	"reloadRate"				"1.2" //was .8
+	"fireRate"					".3" //was .8
+	"reloadRate"				".3" //was .8
 	"spread"					"7" // was 0
 
-	"ammoRegenStep"				"1"
+	"ammoRegenStep"				"10" // was 1
 	"ammoRegenTime"				"1750"
 	
 	"weaponname"				"Rocket Launcher"
 	"def_projectile"			"projectile_rocket"
 	"ammoType"					"ammo_rocketlauncher"
-	"clipSize"					"1"
+	"clipSize"					"3"
 	"ammoRequired"				"1"
 	"gui"						"guis/weapons/rocketlauncher_ammo.gui"
 	"mtr_icon"					"gfx/guis/hud/icons/gun_rocketlauncher"
@@ -337,9 +337,9 @@ entityDef projectile_rocket
 							
 	"detonate_on_fuse"			"1"
 	"detonate_on_death"			"0"
-	"detonate_on_world"			"1"
+	"detonate_on_world"			"1" 
 	"detonate_on_actor"			"1"
-	"detonate_on_bounce"		"1"
+	"detonate_on_bounce"		"1" 
 								
 	"impact_gib"				"1"								
 	"decal_size"				"75"
@@ -408,7 +408,7 @@ entityDef damage_rocketDirect_mp
 {
 	"inherit"					"damage_rocketDirect"
 	"damage"					"100"
-	"knockback"					"110"
+	"knockback"					"200" //was 110
 }
 
 entityDef damage_rocketSplash 
