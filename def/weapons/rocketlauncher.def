@@ -75,9 +75,9 @@ entityDef weapon_rocketlauncher
 	"inv_icon"					"gfx/guis/hud/icons/item_rocket.tga"
 	"inv_name"					"#str_107409"	
 
-	"fireRate"					".3" //was .8
-	"reloadRate"				".3" //was .8
-	"spread"					"7" // was 0
+	"fireRate"					"1.2" //was .8
+	"reloadRate"				".8" 
+	"spread"					"0" 
 
 	"ammoRegenStep"				"10" // was 1
 	"ammoRegenTime"				"1750"
@@ -165,8 +165,8 @@ entityDef weapon_rocketlauncher_mp
 	"simple_icon_scale"			"32.0"
 	"triggerSize"				"32"
 	
-	"respawn_Team DM"			"30"
-	"respawn_Tourney"			"15"
+	"respawn_Team DM"			"0" // was 30
+	"respawn_Tourney"			"0" // was 15
 	
 	// played when you touch a weapon you can't acquire, i.e. weaponStay in MP
 	"snd_noAcquire"			"pickup_weaponstay"
